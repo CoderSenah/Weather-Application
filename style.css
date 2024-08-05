@@ -61,15 +61,17 @@ main {
 }
 
 .weather-icon {
-  font-size: 44px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-temperature {
   font-size: 88px;
   font-weight: bold;
+  line-height: 88px;
 }
 .weather-degrees {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 

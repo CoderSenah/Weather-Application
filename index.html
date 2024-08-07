@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
@@ -29,21 +31,26 @@
       </header>
       <main>
         <div class="weather-data">
-          <div>
-            <h1 class="weather-app-city" id="weather-app-city"></h1>
-            <p class="weather-app-details">
-              <span id="currentTime"></span>, <span id="discription"></span>
-              <br />
-              Humidity: <strong id="humidity"></strong> , Wind:
-              <strong id="windSpeed"></strong>
-            </p>
-          </div>
-          <div class="weather-app-temp-container">
-            <div id="icon">/></div>
-            <div class="weather-temperature" id="weather-temperature"></div>
-            <div class="weather-degrees">°C</div>
+          <h1 class="weather-app-city" id="weather-app-city"></h1>
+          <div class="weather-container">
+            <div>
+              <p class="weather-app-details">
+                <span id="currentTime"></span> <br /><span
+                  id="discription"
+                ></span>
+                <br />Humidity: <strong id="humidity"></strong><br />
+                Wind:
+                <strong id="windSpeed"></strong>
+              </p>
+            </div>
+            <div class="weather-app-temp-container">
+              <div id="icon">/></div>
+              <div class="weather-temperature" id="weather-temperature"></div>
+              <div class="weather-degrees">°C</div>
+            </div>
           </div>
         </div>
+
         <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>

@@ -12,6 +12,7 @@ body {
     rgb(255, 255, 231) 100.2%
   );
   font-family: "Poppins", sans-serif;
+  padding: 20px;
 }
 
 a {
@@ -156,11 +157,11 @@ footer {
   color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .container {
     width: 90%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
   }
 
   .search-form-input {
@@ -176,7 +177,12 @@ footer {
     font-size: 48px;
     line-height: 64px;
   }
-
+  .weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 10px 10px;
+  }
   .weather-forecast-day {
     width: 80px;
     height: 130px;
@@ -196,6 +202,7 @@ footer {
   .weather-forecast-temperatures {
     flex-direction: column;
     align-items: center;
+    padding: 20px;
   }
   footer {
     font-size: 10px;

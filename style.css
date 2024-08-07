@@ -159,7 +159,7 @@ footer {
 
 @media (max-width: 600px) {
   .container {
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
     padding: 30px;
   }
@@ -172,34 +172,48 @@ footer {
     font-size: 32px;
     line-height: 32px;
   }
+  .weather-app-details {
+    font-size: 15px;
+  }
 
   .weather-temperature {
+    margin-top: 12px;
     font-size: 48px;
     line-height: 64px;
   }
 
+  .weather-degrees {
+    margin-top: 15px;
+  }
+  .weather-forecast {
+    margin-top: 20px;
+    padding: 10px 10px;
+  }
   .weather-forecast-day {
     width: 80px;
-    height: 130px;
-    font-size: 11px;
+    height: 110px;
+    font-size: 10px;
+    margin: 3px;
   }
 
   .weather-forecast-date {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 10px;
   }
 
   .weather-forecast-icon {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
   }
 
   .weather-forecast-temperatures {
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
   }
   footer {
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: 700;
   }
 }

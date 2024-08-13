@@ -160,7 +160,7 @@ footer {
 
 @media (max-width: 600px) {
   .container {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     padding: 30px;
     border-radius: 20px;

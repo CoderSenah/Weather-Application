@@ -97,8 +97,8 @@ h1 {
 }
 
 .weather-icon {
-  width: 88px;
-  height: 88px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-temperature {
@@ -175,11 +175,11 @@ footer {
     line-height: 32px;
   }
   .weather-app-details {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .weather-temperature {
-    margin-top: 12px;
+    margin-top: 20px;
     font-size: 48px;
     line-height: 64px;
   }

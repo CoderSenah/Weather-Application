@@ -163,6 +163,7 @@ footer {
     width: 80%;
     margin: 20px auto;
     padding: 30px;
+    border-radius: 50px;
   }
 
   .search-form-input {
